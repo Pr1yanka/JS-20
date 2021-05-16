@@ -5,7 +5,7 @@ const projectMap = {
     "Infinite Scroll": "/JS-20/Infinite Scroll/index.html",
     "Picture in Picture": "/JS-20/Picture in Picture/index.html",
     "Joke Teller": "/JS-20/Joke-Teller/index.html",
-    "Light Dark Mode": "/JS-20/animated-template/index.html",
+    "Light Dark Mode": "/JS-20/Light Dark Mode/index.html",
     "Animated Template": "/JS-20/animated-template/index.html",
     "Animated Navigation": "/JS-20/animated-navigation/index.html",
     "Music Player": "/JS-20/music-player/index.html",
@@ -15,7 +15,7 @@ const projectMap = {
 function cardClick(e) {
     const target = e.target.alt;
     let url ='';
-    if(projectMap[target] != ''){
+    if(projectMap[target] != '' && projectMap[target] != undefined && projectMap[target] != null){
         let link = projectMap[target];
         url = `${window.location.origin}${link}`;
         console.log(url);
