@@ -11,7 +11,8 @@ const projectMap = {
     "Music Player": "/JS-20/music-player/index.html",
     "Countdown": "/JS-20/custom-countdown/index.html",
     "Bookmark keeper": "/JS-20/Bookmark keeper/index.html",
-    "Video Player": "/JS-20/video-player/index.html"
+    "Video Player": "/JS-20/video-player/index.html",
+    "Form Validator": "/JS-20/form-validator/index.html",
 };
 function cardClick(e) {
     const target = e.target.alt;
