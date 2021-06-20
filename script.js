@@ -14,7 +14,8 @@ const projectMap = {
     "Video Player": "/JS-20/video-player/index.html",
     "Form Validator": "/JS-20/form-validator/index.html",
     "Spock Rock Game": "/JS-20/spock-rock-game/index.html",
-    "NASA APOD": "/JS-20/nasa-api-pictures/index.html"
+    "NASA APOD": "/JS-20/nasa-api-pictures/index.html",
+    "Math Sprint": "/JS-20/math-sprint-game/index.html"
 };
 function cardClick(e) {
     const target = e.target.alt;
