@@ -15,7 +15,8 @@ const projectMap = {
     "Form Validator": "/JS-20/form-validator/index.html",
     "Spock Rock Game": "/JS-20/spock-rock-game/index.html",
     "NASA APOD": "/JS-20/nasa-api-pictures/index.html",
-    "Math Sprint": "/JS-20/math-sprint-game/index.html"
+    "Math Sprint": "/JS-20/math-sprint-game/index.html",
+    "Kanban board": "/JS-20/drag-and-drop/index.html"
 };
 function cardClick(e) {
     const target = e.target.alt;
