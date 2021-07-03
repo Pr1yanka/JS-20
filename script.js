@@ -17,7 +17,8 @@ const projectMap = {
     "NASA APOD": "/JS-20/nasa-api-pictures/index.html",
     "Math Sprint": "/JS-20/math-sprint-game/index.html",
     "Kanban board": "/JS-20/drag-and-drop/index.html",
-    "Calculator": "/JS-20/calculator/index.html"
+    "Calculator": "/JS-20/calculator/index.html",
+    "Splash Page": "/JS-20/splash-page/index.html"
 };
 function cardClick(e) {
     const target = e.target.alt;
